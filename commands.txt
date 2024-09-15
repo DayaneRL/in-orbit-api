@@ -1,0 +1,28 @@
+//drizzle
+npx drizzle-kit generate
+npx drizzle-kit migrate
+npx drizzle-kit studio
+
+//docker
+docker compose up -d
+
+//run
+npm run seed
+npm run dev
+
+
+# instalacoes do projeto
+npm init -y
+npm i typescript -D
+npx tsc --init
+npm i @types/node tsx -D
+npm i fastify
+npm i -D --save-exact @biomejs/biome
+npm i drizzle-orm
+npm i drizzle-kit -D
+npm i zod
+npm i postgres
+npm i @paralleldrive/cuid2
+npm i dayjs
+npm i fastify-type-provider-zod
+npm i @fastify/cors
